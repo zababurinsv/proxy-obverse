@@ -1,0 +1,39 @@
+{
+  "name": "stun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "node client.js",
+    "client.local": "node client.local.js",
+    "client.reverse": "node client.reverse.js",
+    "server": "node server.js",
+    "server.local": "node server.local.js",
+    "kill:1111": "kill $(lsof -t -i:1111)",
+    "git": "git status && git add -A && git commit -am 'update' && git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.3.0",
+    "semver": "^7.3.2",
+    "node-uuid": "^1.4.8",
+    "optimist": "<=0.6.1",
+    "under_score": "<=0.1.0",
+    "websocket": "^1.0.32",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-enqueue": "^1.0.0",
+    "mongoose": "^5.10.1",
+    "node-ssh": "^11.0.0",
+    "pouchdb-adapter-http": "^7.2.2",
+    "pouchdb-adapter-idb": "^7.2.2",
+    "pouchdb-adapter-memory": "^7.2.2",
+    "pouchdb-server": "^4.2.0",
+    "rxdb": "^9.5.0",
+    "rxjs": "^6.6.2",
+    "ssh2": "^0.8.9"
+  }
+}
